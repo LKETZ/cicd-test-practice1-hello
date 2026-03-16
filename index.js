@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
   //res = response object
  res.statusCode = 200;
  res.setHeader('Content-Type', 'text/plain');
- res.end('Hello World from DevOps Lab!\n');
+ res.end('Hello World from egco344!\n');
 });
 server.listen(port, () => {
  console.log(`Server running at port ${port}`);
