@@ -20,7 +20,8 @@ jobs:
 
     - run: npm install
     - run: echo "Tests would run here..."
-    
+  
+  
   # Add this job below the build-and-test job
   deploy-docker:
     needs: build-and-test
